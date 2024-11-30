@@ -11,8 +11,8 @@ hero:
       text: 角色列表
       link: /setting/characters
     - theme: alt
-      text: 更新日志
-      link: /setting/open/update
+      text: 渔舟手册
+      link: /setting/md
 
 features:
   - title: 第一章 冰原

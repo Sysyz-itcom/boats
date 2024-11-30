@@ -13,6 +13,7 @@ export default defineConfig({
     },    
     nav: [
       { text: '关于游戏', link: '/setting/about' },
+      { text: '更新日志', link: '/setting/open/update' },
       { text: '开发者功能', link: '/setting/open/develop' }
     ],
 
