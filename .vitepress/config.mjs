@@ -22,6 +22,8 @@ export default defineConfig({
 
     sidebar: false, // 关闭侧边栏
     aside: "left", // 设置右侧侧边栏在左侧显示
+    returnToTopLabel: "返回顶部",
+    darkModeSwitchLabel: "深色模式",
 
 //    socialLinks: [
 //      { icon: 'github', link: 'https://github.com/sysyz-itcom' }
