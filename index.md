@@ -27,8 +27,8 @@ features:
 
   - title: 【塔】 支线一 KAF4902
     details: 黄色的小花铺满了 KAF4902 的黑色土地。
-#    link: /ddu/3
-#    linkText: 开始探索
+    link: /ddu/3
+    linkText: 开始探索
 
   - title: 【塔】 第三章 港湾
     details: No Data.
