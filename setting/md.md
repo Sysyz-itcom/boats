@@ -20,8 +20,18 @@
 - 第三方清理程序删除了软件的缓存。
 :::
 
-::: details No Data.
+::: details 收到更新但无法打开详情页？
+如果您在更新弹窗中点击了 "立即更新" 您应该被重定向到渔舟软件的发布详情页。若出现如下返回信息：
 
+```json
+{
+    "code": 000;
+    "message": Error;
+    "details": The server is faulty. The data returned is incorrect.
+}
+```
+
+请到 [社团服务页面在线状态](https://sysyz-itcom.github.io/docs/docs/club-service-running) 检查 **下载站** 是否在线。
 :::
 
 ::: details No Data.
