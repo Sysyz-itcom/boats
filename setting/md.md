@@ -25,9 +25,9 @@
 
 ```json
 {
-    "code": 000;
-    "message": Error;
-    "details": The server is faulty. The data returned is incorrect.
+    "code": "000",
+    "message": "Error",
+    "details": "server is faulty. The data returned is incorrect."
 }
 ```
 
