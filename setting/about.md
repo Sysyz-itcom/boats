@@ -23,3 +23,11 @@
 ## 服务政策
 本游戏由 WindLin Studio 开发并进行更新和维护，遵循其上游组织 SYSYZ-ITCOM 的相关服务协议。
 - [《社团通用软件使用协议》](https://sysyz-itcom.github.io/itcom/docs/agreement/app-services.html)
+
+## 创作者列表
+### 1. yizhixianyuuuu <Badge type="tip" text="主要贡献者" /> <Badge type="warning" text="DEVELOPER" />
+
+- 【塔】章节编写
+- 主线章节编写
+- 世界观构建
+- 【塔】角色编写

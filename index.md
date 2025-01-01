@@ -15,6 +15,11 @@ hero:
       link: /setting/md
 
 features:
+  - title: 破译中心
+    details: AlpOS 破译中心欢迎您
+    link: https://sysyz-itcom.github.io/page/alpos-poyi.html
+    linkText: 访问破译中心
+
   - title: 【塔】 第一章 冰原
     details: 过去的事情从未过去。
     link: /ddu/1
@@ -35,17 +40,22 @@ features:
 #    link: /ddu/4
 #    linkText: 开始探索
 
-  - title: 【塔】 第四章 琉泊平原
+  - title: 【塔】 第四章 石树
+    details: No Data.
+#    link: /ddu/8
+#    linkText: 开始探索
+
+  - title: 【塔】 第五章 琉泊平原
     details: No Data.
 #    link: /ddu/5
 #    linkText: 开始探索
 
-  - title: 【塔】 第五章 月面
+  - title: 【塔】 第六章 月面
     details: No Data.
 #    link: /ddu/6
 #    linkText: 开始探索
 
-  - title: 【塔】 第六章 穹顶
+  - title: 【塔】 第七章 穹顶
     details: 天穹无边际，繁星似尘埃。
     link: /ddu/7
     linkText: 开始探索

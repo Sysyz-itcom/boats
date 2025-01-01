@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     footer: {
       message: '虚拟架空剧情，请勿代入现实',
-      copyright: 'Copyright © 2024 WindLin Studio'
+      copyright: 'Copyright © 2025 WindLin Studio'
     },    
     nav: [
       { text: '关于游戏', link: '/setting/about' },
