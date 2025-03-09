@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who are you？</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+            color: #b2b2b2;
+            font-family: Arial, sans-serif;
+        }
+
+        .text-container {
+            text-align: center;
+        }
+
+        .text {
+            opacity: 0;
+            font-size: 2rem;
+            margin: 1rem 0;
+            animation: fadeInOut 5s ease-in-out forwards;
+        }
+
+        .text:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .text:nth-child(2) {
+            animation-delay: 5s;
+        }
+
+        .text:nth-child(3) {
+            animation-delay: 10s;
+        }
+
+        .text:nth-child(4) {
+            animation-delay: 15s;
+        }
+
+        @keyframes fadeInOut {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            20% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            80% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <div class="text">Who are you ?</div>
+        <div class="text">Are you lost ?</div>
+        <div class="text">Where are you from ?</div>
+        <div class="text">Where are you going ?</div>
+    </div>
+<script>
+    setTimeout(() => {
+        window.location.href = 'https://sysyz-itcom.github.io/boats/index.html';
+    }, 20000);
+</script>
+</body>
+</html>
