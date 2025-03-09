@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are you lost ?</title>
+    <style>
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 10rem;
+            margin: 0;
+            animation: float 3s ease-in-out infinite;
+        }
+        p {
+            font-size: 2rem;
+            opacity: 0.8;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="particle-text" onclick="handleClick()">404</h1>
+    <p>Are you lost ?</p>
+    <script>
+        const text = document.getElementById('particle-text');
+        let isDragging = false;
+        let offsetX, offsetY;
+        let originalX, originalY;
+
+        text.style.position = 'absolute';
+        text.style.cursor = 'grab';
+        originalX = text.offsetLeft;
+        originalY = text.offsetTop;
+
+        text.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            offsetX = e.clientX - text.offsetLeft;
+            offsetY = e.clientY - text.offsetTop;
+            text.style.cursor = 'grabbing';
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                text.style.left = `${e.clientX - offsetX}px`;
+                text.style.top = `${e.clientY - offsetY}px`;
+            }
+        });
+
+        document.addEventListener('mouseup', () => {
+            if (isDragging) {
+                isDragging = false;
+                text.style.cursor = 'grab';
+                text.style.transition = 'all 0.5s ease';
+                text.style.left = `${originalX}px`;
+                text.style.top = `${originalY}px`;
+                setTimeout(() => {
+                    text.style.transition = '';
+                }, 500);
+            }
+        });
+    let clickCount = 0;
+function handleClick() {
+  clickCount++;
+  if (clickCount === 20) {
+    window.location.href = './hey/whoareyou.html';
+  }
+}
+</script>
+</body>
+</html>
