@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渔舟</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .folder {
+            margin-bottom: 10px;
+        }
+
+        .folder-header {
+            padding: 10px;
+            background-color: #333;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .folder-header-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .folder-content {
+            max-height: 0;
+            overflow-y: hidden;
+            transition: max-height 0.3s ease-out;
+            padding-left: 20px;
+        }
+
+        .folder.open .folder-content {
+            max-height: 1000px;
+        }
+
+        .folder-item {
+            padding: 5px 0;
+        }
+
+        .folder-item-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .folder-item-subtitle {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .folder-item-content {
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; margin: 20px 0;">AlpOS</h1>
+    <!-- 第一章 冰原 -->
+    <div class="folder">
+        <div class="folder-header">
+            <div class="folder-header-title">【塔】第 1 章 冰原</div>
+            <div class="folder-subtitle">过去的事情从未过去，未来已经到来</div>
+        </div>
+        <div class="folder-content">
+            <div class="folder-item">
+                <div class="folder-item-title">Intro</div>
+                <div class="folder-item-subtitle">
+                    我试着从我的父辈那里了解一些关于冰原的信息，可一无所有……<br>
+                    课堂上，我试着询问老师关于 “冰原” 的事情，但可惜，一无所获。<br><br>
+                    【Des souvenirs effacés, des champs de glace inexistants.】
+                </div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">冰原</div>
+                <div class="folder-item-subtitle">
+                    冰原是前人类的居住地，智慧的人类在平原和丘陵上建立了令人无限遐想的科技，无数生物在大地上活动。直到……<br>
+                    一场奇怪的风暴冲击了平原，动植物开始死亡，地面上开始泛出水分并快速凝结，最终形成坚不可摧的冰面。一场没有源头的瘟疫席卷了世界，大批量生命体死去，给风暴提供了??，最终形成了冰原。
+                </div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">因果</div>
+                <div class="folder-item-subtitle">
+                    过去的事情从未过去，<br>
+                    谁起的因？谁埋藏的果？<br>
+                    何处起源，何处熄灭？<br>
+                    等待，不是解决问题的任何方案。
+                </div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">黑暗</div>
+                <div class="folder-item-subtitle">
+                    最可怕的不是黑暗，而是人们习惯了黑暗，便相信它的永恒。
+                </div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">臆念</div>
+                <div class="folder-item-subtitle">
+                    以你的意识，创造我。以你的意识，建立我。<br>
+                    我是你最深的念想，我是你最难忘的回忆。<br>
+                    何将以火照我？<br>
+                    我将以你的意志为起点。<br>
+                    何必束我于你的周围？赐我生命，也请予我自由。<br>
+                    何时再见？<br>
+                    当冰原退去之时，当黑土消逝之时，当白域消失之时…… 我将回归你，抹去我本有的记忆。
+                </div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">琉泊塔</div>
+                <div class="folder-item-subtitle">
+                    我坐在阳台上，看着高耸入云的琉泊塔，从我记事起，它就在此，时间已无法衡量。虚幻般火红的太阳从它背后升起、落下。<br>
+                    虚无、幻想。<br>
+                    历史书上没有记载它的来历。<br>
+                    它会回来，它从未离开。<br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 第一章结束 -->
+    <br>
+    <!-- 第二章 -->
+    <div class="folder">
+        <div class="folder-header">
+            <div class="folder-header-title">【塔】第 2 章 风原</div>
+            <div class="folder-subtitle">一望无际的草原，从未出现的黑暗，永远的光明。</div>
+        </div>
+        <div class="folder-content">
+            <div class="folder-item">
+                <div class="folder-item-title">Intro</div>
+                <div class="folder-item-subtitle">客从远方来，遗我一端绮。相去万余里，故人心尚尔。</div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">战城南</div>
+                <div class="folder-item-subtitle">思子良臣，良臣诚可思：朝行出攻，暮不夜归。</div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">向阳草</div>
+                <div class="folder-item-subtitle">风原空间特有的草，随着太阳移动方向，每小时更改一次方向，初次到来的旅行者会迷失方向。</div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">Poem - FN - 1</div>
+                <div class="folder-item-subtitle">天苍苍，野茫茫，风吹草低见牛羊。</div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">KAF4902</div>
+                <div class="folder-item-subtitle">风原的亚空间，按照琉泊塔的探险手册上描述，随意找到一棵与其他朝向相反的草，注视该小草 3 分钟以上，然后闭上眼睛，就有概率进入该空间。与风原不同，KAF4902 的土地是黑色而非深褐色，遍地铺满了黄色的小花。</div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">孤山</div>
+                <div class="folder-item-subtitle">淹留野寺出，向背孤山明。</div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">侠客行</div>
+                <div class="folder-item-subtitle">谁能书阁下，白首太玄经。</div>
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">少年侠气</div>
+                <div class="folder-item-subtitle">少年侠气，交结五都雄。肝胆洞，毛发耸。立谈中，生死同，一诺千金重。</div>
+            </div>
+        </div>
+    </div>
+    <!-- 第二章结束 -->
+    <br>
+    <!-- 第三章 -->
+    <div class="folder">
+        <div class="folder-header">
+            <div class="folder-header-title">【塔】支线一 KAF4902</div>
+            <div class="folder-subtitle">黑色的土地从来不依靠自然获取养分。</div>
+        </div>
+        <div class="folder-content">
+            <div class="folder-item">
+                <div class="folder-item-title">花海</div>
+                <div class="folder-item-subtitle">
+                    黑土之上本没有鲜花，英勇的人们用血肉铺平了土地。<br>
+                    就此，百花齐放。
+                </div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">焚花</div>
+                <div class="folder-item-subtitle">
+                    一朵普通的花，KinBo 的工作人员找到它时，它看起来十分缺水。<br>
+                    一位农夫进来，蹲在花旁…… 农夫的身体像玻璃一样四溅……<br>
+                    红色的液体流进土里，花在土上摇动。
+                </div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">Poem - FL - 1</div>
+                <div class="folder-item-subtitle">
+                    Je veux connaître le propriétaire de cette mer de fleurs, avec des flocons de neige qui volent tout autour.<br>
+                    Je pense qu’il ne s’arrêterait pas ici pour regarder les fleurs remplies de neige.
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="folder">
+        <div class="folder-header">
+            <div class="folder-header-title">【塔】第 3 章 港湾</div>
+            <div class="folder-subtitle">No Data.</div>
+        </div>
+        <!-- <div class="folder-content">
+            <div class="folder-item">
+                <div class="folder-item-title">项目 G</div>
+                <div class="folder-item-subtitle">副标题 G</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 H</div>
+                <div class="folder-item-subtitle">副标题 H</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 I</div>
+                <div class="folder-item-subtitle">副标题 I</div>
+
+            </div>
+        </div> -->
+    </div>
+    <br>
+    <div class="folder">
+        <div class="folder-header">
+            <div class="folder-header-title">【塔】 第 4 章 石树</div>
+            <div class="folder-subtitle">No Data.</div>
+        </div>
+        <!-- <div class="folder-content">
+            <div class="folder-item">
+                <div class="folder-item-title">项目 J</div>
+                <div class="folder-item-subtitle">副标题 J</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 K</div>
+                <div class="folder-item-subtitle">副标题 K</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 L</div>
+                <div class="folder-item-subtitle">副标题 L</div>
+
+            </div>
+        </div> -->
+    </div>
+    <br>
+    <div class="folder">
+        <div class="folder-header">
+            <div class="folder-header-title">【塔】 第 5 章 琉泊平原</div>
+            <div class="folder-subtitle">No Data.</div>
+        </div>
+        <!-- <div class="folder-content">
+            <div class="folder-item">
+                <div class="folder-item-title">项目 M</div>
+                <div class="folder-item-subtitle">副标题 M</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 N</div>
+                <div class="folder-item-subtitle">副标题 N</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 O</div>
+                <div class="folder-item-subtitle">副标题 O</div>
+
+            </div>
+        </div> -->
+    </div>
+    <br>
+    <div class="folder">
+        <div class="folder-header">
+            <div class="folder-header-title">【塔】 第 6 章 月面</div>
+            <div class="folder-subtitle">No Data.</div>
+        </div>
+       <!--  <div class="folder-content">
+            <div class="folder-item">
+                <div class="folder-item-title">项目 P</div>
+                <div class="folder-item-subtitle">副标题 P</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 Q</div>
+                <div class="folder-item-subtitle">副标题 Q</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 R</div>
+                <div class="folder-item-subtitle">副标题 R</div>
+
+            </div>
+        </div> -->
+    </div>
+    <br>
+    <div class="folder">
+        <div class="folder-header">
+            <div class="folder-header-title">【塔】第 7 章 穹顶</div>
+            <div class="folder-subtitle">No Data.</div>
+        </div>
+        <!-- <div class="folder-content">
+            <div class="folder-item">
+                <div class="folder-item-title">项目 S</div>
+                <div class="folder-item-subtitle">副标题 S</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 T</div>
+                <div class="folder-item-subtitle">副标题 T</div>
+
+            </div>
+            <hr>
+            <div class="folder-item">
+                <div class="folder-item-title">项目 U</div>
+                <div class="folder-item-subtitle">副标题 U</div>
+
+            </div>
+        </div> -->
+    </div>
+    <script>
+        const folders = document.querySelectorAll('.folder-header');
+        folders.forEach(folder => {
+            folder.addEventListener('click', () => {
+                const parent = folder.parentElement;
+                if (!parent.classList.contains('no-expand')) {
+                    parent.classList.toggle('open');
+                }
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var folders = document.querySelectorAll('.folder');
+            folders.forEach(function(folder) {
+                folder.classList.remove('open');
+            });
+        });
+    </script>
+    <footer
+        style="position: fixed; bottom: 0; left: 0; right: 0; background-color: rgb(0, 0, 0); color: white;  text-align: center; padding: 10px; font-size: 12px;">
+        内容虚构 请勿代入现实<br>
+        © 2025 AlpOS
+    </footer>
+</body>
+
+</html>
